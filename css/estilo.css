@@ -118,3 +118,31 @@ iframe.formulario {
     display: table;
     margin: auto;
 }
+
+.boas_vindas {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.flex-container>div {
+    background-color: #f1f1f1;
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.texto_noticia {
+    text-align: center;
+    padding: 10px;
+}
+
+.img_noticia {
+    height: auto;
+    width: 370px;
+}
