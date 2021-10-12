@@ -143,6 +143,8 @@ div.flex-container>div {
     margin: auto;
     text-align: center;
     background-color: aliceblue;
+    border-radius: 10px;
+   
 }
 
 .texto_noticia {
