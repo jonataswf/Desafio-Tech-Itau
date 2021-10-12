@@ -3,9 +3,11 @@ p {
 }
 
 body {
+    width: 100%;
+    height: 100%;
     font-family: Tahoma;
-    margin: 0px;
-    background-color: #FFFFFF;
+    margin: auto;
+    background-color: azure;
 }
 
 #principal {
@@ -28,8 +30,9 @@ body {
 
 ul.menu {
     list-style-type: none;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
+    
 }
 
 a.menu:link, a.menu:visited {
@@ -54,6 +57,8 @@ li.menu {
 }
 
 #rodape {
+    width: 100%;
+    height: 100%;
     margin-top: 10px;
     text-align: center;
     background-color: #0047B2;
@@ -70,6 +75,7 @@ img.logo {
 
 table.participante {
     width: 100%;
+    height: auto;
     background-color: aliceblue;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -128,15 +134,13 @@ iframe.formulario {
 }
 
 .flex-container {
-    display: flex;
     flex-wrap: nowrap;
 }
 
 div.flex-container>div {
-    background-color: #f1f1f1;
     width: 600px;
     height: auto;
-    margin: 10px;
+    margin: auto;
     text-align: center;
     background-color: aliceblue;
 }
@@ -149,4 +153,8 @@ div.flex-container>div {
 .img_noticia {
     height: auto;
     width: 370px;
+}
+
+#copyright {
+    text-align: center;
 }
